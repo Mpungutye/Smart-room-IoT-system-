@@ -1,23 +1,19 @@
-# Flet app
+# Smart Room IoT System
 
-Flet app using Flet extension.
+This project is a smart home automation system built with:
+- **ESP32** for sensor and actuator control
+- **Flask** for backend API
+- **Flet** for the user interface
+- **GitHub** for version control and collaboration
 
-To run the app:
+## 🔧 Features
 
-1. Install dependencies from pyproject.toml:
+- Motion detection with PIR sensor
+- Temperature and humidity monitoring via DHT11
+- Light control with an LDR and LED
+- Fan control via relay module
+- Real-time device control using toggle switches from the Flet UI
+- Flask backend to handle sensor data and control commands
 
-```
-poetry install
-```
+## 📂 Project Structure
 
-2. Build app:
-
-```
-poetry run flet build macos -v
-```
-
-3. Run app:
-
-```
-poetry run flet run
-```
